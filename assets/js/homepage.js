@@ -1,6 +1,12 @@
-var getUserRepos = function() {
-    fetch("https://api.pinggithub.com/users/octocat/repos");
-    
-};
 
+var user = "Kamadulski999"
+
+var getUserRepos = function() {
+    var apiUrl = "https://api.github.com/users/" + user + "/repos";
+    fetch(apiUrl).then(function(response) {
+        response.json().then(function(data) {
+            console.log(data);
+          });
+        });
+    };
 getUserRepos();

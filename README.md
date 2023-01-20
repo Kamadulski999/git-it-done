@@ -16,6 +16,6 @@ An application to find open repository issues on GitHub.
 * The application is mobile query responsive.
 
 ## Deployed Page
-![Git It Done Screenshot](./assets/images/screenshot.png)
+![Git It Done Screenshot](./assets/screenshot.png)
 
 [Git It Done! Deployed Page](https://Kamadulski999.github.io/git-it-done)
